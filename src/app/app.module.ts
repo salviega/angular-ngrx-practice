@@ -14,9 +14,9 @@ import { ItemsEffects } from './state/effects/items.effects';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
+    // BrowserModule,
+    // AppRoutingModule,
+    // HttpClientModule,
     StoreModule.forRoot(ROOT_REDUCERS), // import the store, emptly
     // use of DEvtools
     StoreDevtoolsModule.instrument({ name: 'TEST'}),
